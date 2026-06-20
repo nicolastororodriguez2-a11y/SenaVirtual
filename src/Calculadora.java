@@ -23,5 +23,9 @@ public class Calculadora {
         System.out.println("El resultado de la suma es "+calculadora.sumar(num1,num2));
         //Muestra el resultado en pantalla
         JOptionPane.showMessageDialog(null,"El resultado de la suma es "+calculadora.sumar(num1,num2));
+        JOptionPane.showMessageDialog(null,"El resultado de la resta es "+calculadora.restar(num1,num2));
+        JOptionPane.showMessageDialog(null,"El resultado de multiplicacion  es "+calculadora.multiplicar(num1,num2));
+        JOptionPane.showMessageDialog(null,"El resultado de la divicion es "+calculadora.dividir(num1,num2));
+
     }
     }
