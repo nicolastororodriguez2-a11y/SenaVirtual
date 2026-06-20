@@ -14,6 +14,17 @@ public class Calculadora {
     public double dividir(double num1, double num2){
         return  num1/num2;
     }
+    public void esMayor(int num1, int num2){
+       if (num1==num2){
+           JOptionPane.showMessageDialog(null,"Los numeros son igules");
+       } else if (num1 > num2) {
+           JOptionPane.showMessageDialog(null,"Numero 1 es mayor");
+       }else{
+           JOptionPane.showMessageDialog(null,"Numero 2 es mayor");
+       }
+
+
+    }
 
     static void main() {
         Calculadora calculadora =new Calculadora();
